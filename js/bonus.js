@@ -23,7 +23,7 @@ function Bonus() {
 
   self.bonusMove = function () {
 
-    // двигаем астеройд
+    // двигаем бонус
     for (let i = 0; i < bonus.length; i++) {
 
       bonus[i].posX = Math.round(bonus[i].posX + bonus[i].speed * Math.cos(toRadians(bonus[i].angle)));
